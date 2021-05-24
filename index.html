@@ -22,7 +22,7 @@
 <body>
     <!--Barra de Navegação-->
     <nav class="navbar navbar-expand-lg navbar-light bg-success">
-          <img class="size-icon" src="./assets/img/logo-rango.png" alt="Logo Rango">
+        <img class="size-icon" src="./assets/img/logo-rango.png" alt="Logo Rango">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
             aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
@@ -34,22 +34,16 @@
                     <a class="nav-link" href="#">Início <span class="sr-only">(página atual)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Posts</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Login
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Usuário</a>
-                        <a class="dropdown-item" href="#">ONG</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Empresas</a>
-                    </div>
+                    <a class="nav-link" href="#criesuaconta">Crie sua conta</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Desativado</a>
+                    <a class="nav-link disabled" href="#sobrenos">Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#video">Vídeo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#contato">Contato</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -105,79 +99,31 @@
     <!--/Jumbotron-->
 
     <!--Coluna de Cards-->
-    <div class="container">
 
-        <div class="card-columns">
-            <div class="card">
-                <img class="card-img-top" src=".../100px160/" alt="Imagem de capa do card">
-                <div class="card-body">
-                    <h5 class="card-title">Título do card que quebra em uma nova linha</h5>
-                    <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma
-                        introdução
-                        a um conteúdo adicional. Este conteúdo é um pouco maior.</p>
+    <div class="container">
+        <h3 id="criesuaconta" class="text-center font-weight-bold ">Crie sua conta</h3>
+        <div class="row mb-3 mt-5 text-center">
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/img/cadastrar.png" alt="Imagem de cadastro" height="350">
+                    <div class="card-body">
+                        <h5 class="card-title">Passo 1: cadastre-se</h5>
+                        <p class="card-text"></p>
+                    </div>
                 </div>
-            </div>
-            <div class="card p-3">
-                <blockquote class="blockquote mb-0 card-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer class="blockquote-footer">
-                        <small class="text-muted">
-                            Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
-                        </small>
-                    </footer>
-                </blockquote>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src=".../100px160/" alt="Imagem de capa do card">
-                <div class="card-body">
-                    <h5 class="card-title">Título do card</h5>
-                    <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a
-                        um
-                        conteúdo adicional.</p>
-                    <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                <div class="card">
+                    <img class="card-img-top" src="./assets/img/login.jpg" alt="Imagem de login">
+                    <div class="card-body">
+                        <h5 class="card-title">Passo 2: faça o seu login</h5>
+                        <p class="card-text"></p>
+                    </div>
                 </div>
-            </div>
-            <div class="card bg-success text-white text-center p-3">
-                <blockquote class="blockquote mb-0">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-                    <footer class="blockquote-footer">
-                        <small>
-                            Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
-                        </small>
-                    </footer>
-                </blockquote>
-            </div>
-            <div class="card text-center">
-                <div class="card-body">
-                    <h5 class="card-title">Título do card</h5>
-                    <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a
-                        um
-                        conteúdo adicional.</p>
-                    <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card-img" src=".../100px260/" alt="Imagem do card">
-            </div>
-            <div class="card p-3 text-right">
-                <blockquote class="blockquote mb-0">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer class="blockquote-footer">
-                        <small class="text-muted">
-                            Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
-                        </small>
-                    </footer>
-                </blockquote>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Título do card</h5>
-                    <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma
-                        introdução a um
-                        conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura
-                        igual, em
-                        ação.</p>
-                    <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                <div class="card">
+                    <img class="card-img-top" src="./assets/img/conectar.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Passo 3: conecte-se com empresas parceiras</h5>
+                        <p class="card-text"></p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -186,18 +132,21 @@
         <!--Texto e Vídeo-->
         <div class="row mb-5 mt-5">
             <div class="col-md-6">
-                <h3>Texto teste</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat ipsum ab unde aspernatur
+                <h3 id="sobrenos" class="text-center">Sobre nós</h3>
+                <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat ipsum ab unde aspernatur
                     consequuntur. Odit dolorem, sequi saepe veniam laborum suscipit sapiente sed facere et, soluta
                     blanditiis molestiae vel maiores!</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia quos omnis nemo nostrum magni vitae,
+                <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia quos omnis nemo nostrum magni vitae,
                     fuga, magnam tempora eligendi quis dicta mollitia facere? Sunt minus fugit nesciunt eligendi. Velit,
                     aperiam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores non necessitatibus quidem ad,
+                <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores non necessitatibus quidem ad,
                     repudiandae quos eveniet aspernatur dolorum velit voluptatibus iste error, mollitia deleniti cumque
                     perferendis placeat possimus. Veritatis, illo.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum praesentium ex repellat temporibus, labore perferendis harum sint, eveniet maxime inventore doloribus, omnis libero illo deleniti expedita. Id cupiditate suscipit velit?</p>
             </div>
             <div class="col-md-6">
+                <h3 id="video" class="text-center">Vídeo sobre ODS:</h3>
+                <h4 class="text-center">Fome e agricultura sustentável</h4>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/IvS2cQYzSto"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -209,57 +158,62 @@
         <!-- Formulário-->
         <div class="row mb-5">
             <div class="col-md-6">
-                <h4 class="text-center">
+                <h4 id="contato" vclass="text-center">
                     Entre em contato
                 </h4>
                 <form>
                     <div class="form-row">
-                        <div class="form-group col-md-6">
+                        <div class="form-group col-md-12">
+                            <label for="inputName">Nome</label>
+                            <input type="name" class="form-control" id="inputName" placeholder="Nome Completo">
+                        </div>
+                        <div class="form-group col-md-12">
                             <label for="inputEmail4">Email</label>
                             <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
                         </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputPassword4">Senha</label>
-                            <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
-                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="inputAddress">Endereço</label>
-                        <input type="text" class="form-control" id="inputAddress" placeholder="Rua dos Bobos, nº 0">
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="inputCity">Cidade</label>
-                            <input type="text" class="form-control" id="inputCity">
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label for="inputEstado">Estado</label>
-                            <select id="inputEstado" class="form-control">
-                                <option selected>Escolher...</option>
-                                <option>...</option>
+                    <!--Seletor-->
+
+                    <div class="form-row align-items-center">
+                        <div class="col-6 my-1 mb-3">
+                            <label class="mr-sm-2" for="inlineFormCustomSelect">Selecione tipo de usuário</label>
+                            <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                <option selected>Selecione</option>
+                                <option value="1">ONG</option>
+                                <option value="2">Usuário</option>
+                                <option value="3">Empresa</option>
                             </select>
                         </div>
-                        <div class="form-group col-md-2">
-                            <label for="inputCEP">CEP</label>
-                            <input type="text" class="form-control" id="inputCEP">
+                    </div>
+
+                    <!--/Seletor-->
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <label for="inputSubject">Assunto</label>
+                            <input type="assunto" class="form-control" id="inputSubject" placeholder="Assunto">
                         </div>
                     </div>
                     <div class="form-group">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheck">
-                            <label class="form-check-label" for="gridCheck">
-                                Clique em mim
-                            </label>
-                        </div>
+                        <label for="exampleFormControlTextarea1">Texto</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary bg-success">Enviar</button>
                 </form>
+
             </div>
+            <!--/Formulário-->
+
             <!--Endereço-->
             <div class="col-md-6">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.875688293911!2d-46.69104498538359!3d-23.572907767903093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5778e84c93bf%3A0x48e7b6f5a58fcfe7!2sAv.%20Brg.%20Faria%20Lima%2C%201811%20-%20Jardim%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001452-001!5e0!3m2!1spt-BR!2sbr!4v1621632356384!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <h4 class="mb-5 text-center">Endereço</h4>
+                <p>Avenida Brigadeiro Faria Lima, 1811</p>
+                <p>Jardim Paulista</p>
+                <p class="mb-4">São Paulo/SP</p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.875688293911!2d-46.69104498538359!3d-23.572907767903093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5778e84c93bf%3A0x48e7b6f5a58fcfe7!2sAv.%20Brg.%20Faria%20Lima%2C%201811%20-%20Jardim%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001452-001!5e0!3m2!1spt-BR!2sbr!4v1621632356384!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
-             <!--/Endereço-->
+            <!--/Endereço-->
         </div>
         <!--/Formulário-->
 
